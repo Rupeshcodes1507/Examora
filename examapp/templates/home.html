@@ -8,18 +8,30 @@
      {% load static %}
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
+    
+<center>
+   <b>
+     <h1> My Exam App</h1>
+    </b>
+
+<center>
+    <img src="examapp/templates/home.html" alt="EXAM APP ">
+</center>
 
 <body>
     <form style="margin-top: 230px;">
-        <input type="submit" value="Question Operation" formaction="/examapp/givemequestioncurd/">
-        <hr><br>
+       <b> <input type="submit" value="Question Operation" formaction="/examapp/givemequestioncurd/">
+        <hr><br><br />
         <input type="submit" value="Student Operation" formaction="/examapp/givemeusercurd/">
-        <hr><br>
+        <hr><br><br />
         <input type="submit" value="Student Login Operation" formaction="/examapp/givemelogin/">
-        <hr><br>
+        <hr><br><br />
         <input type="submit" value="Student Result" formaction="/examapp/showallresults">
         <hr><br>
+        </b>
     </form>
+
+    </center>
 </body>
 
 </html>
